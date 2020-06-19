@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Mattone';
+    src: url('../fonts/Mattone-Regular.woff2') format('woff2'),
+        url('../fonts/Mattone-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+/* MENU */
+.logo{
+    margin: 48px 0px 24px 50px;
+    max-width: 160px;
+}
+
+.menu-laterale{
+    position: fixed;
+    background-color: #fff !important;
+    border-right: 0px solid #000 !important;
+    height: 100vh;
+}
+
+
+
+.text-menu{
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+.active{
+    /*color: rgb(116,255,232);*/
+    color: rgb(120,250,128);
+    text-decoration:line-through ;    
+}
+
+.text-menu:hover{
+    color: rgb(120,250,128);
+    text-decoration:line-through;
+}
+
+.btn-menu{   
+    padding: 0px 10px 24px 50px;   
+}
+
+.btn-menu-2{
+   /* border-bottom: solid 2px red;*/
+    padding: 0px 10px 24px 70px;   
+}
+
+.menu-section{
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: black;
+    padding: 0px 0px 8px 50px;
+    margin: 0;   
+}
+
+/* texts */
+
+p{
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: black;
+    margin: 48px 0px;
+}
+
+
+
+h6{
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+h7{
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+.text-bold{
+    font-weight: 700;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+.eng {
+    font-style: italic;
+}
+
+/*classi spazi */
+.top-48{
+    margin-top: 48px;
+}
+.bottom-48{
+    margin-bottom: 48px;
+}
+.bottom-80{
+    margin-bottom: 80px;
+}
+
+
+
+.my-btn{
+    padding: 8px 56px 6px 56px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: solid 2px #000;    
+}
+
+.my-btn:hover{
+    color: rgb(120,250,128);
+    text-decoration: line-through;
+    border: solid 2px rgb(120,250,128);    
+}
