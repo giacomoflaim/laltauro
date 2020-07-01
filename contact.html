@@ -8,7 +8,7 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     
-    <title>L'altauro | info</title>
+    <title>L'altauro | upcoming</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="icon" type="image/png" sizes="96x96" href="./asset/img/fav.png">
     <script src="https://kit.fontawesome.com/4f39297857.js" crossorigin="anonymous"></script>
@@ -19,6 +19,9 @@
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="css/my_style.css" rel="stylesheet">
     
+     <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
+    
 </head>
 
 <body>
@@ -27,11 +30,9 @@
     <!-- Sidebar -->
     <div class="bg-light menu-laterale" style="width: 300px;">
       <div class="list-group list-group-flush">
-        <a href="index.html">
-            <img src="./asset/images/logo_altauro_new.png" class="img-fluid logo" alt="Responsive image">
-        </a>
-        <a href="info.html" class="btn-menu text-menu active">info</a>
-        <a href="upcoming.html" class="btn-menu text-menu">upcoming</a>
+        <img src="./asset/images/logo_altauro_new.png" class="img-fluid logo" alt="Responsive image">
+        <a href="info.html" class="btn-menu text-menu ">info</a>
+        <a href="upcoming.html" class="btn-menu text-menu active">upcoming</a>
         <h6 class="menu-section">about us</h6>
         <a href="davide.html" class="btn-menu-2 text-menu sub-section">DAVIDE MALDI</a>
         <a href="micol.html" class="btn-menu-2 text-menu sub-section">MICOL ROUBINI</a>
@@ -55,16 +56,21 @@
     </div>
 </div>
 
+<div class="container top-48 bottom-80">
+    <div id='map' style='width: 100%; height: 300px;'></div>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoiZ2lhY29tb2ZsIiwiYSI6ImNrOWxkamVhYzAzZW4zbHJ0NTRnOGNzaTgifQ.yYjeSPFynDdrYSPon_HrmQ';
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/giacomofl/ckc3hatnl0ura1iqkubsaxnl6',
+        center: [9.193429, 45.486214],
+        zoom: 15          
+      });
+    </script>
+
    
-<div class="container">
-   <div class="row">
-       <div class="col-md-9 offset-md-3 bottom-80">
-          <img src="./asset/images/bosco_2.jpg" class="img-fluid top-48" alt="info image">
-          <p>L’Altauro è un’associazione culturale con sede a Milano fondata nel 2017 da Davide Maldi e Micol Roubini, con l’intento di sviluppare e produrre opere cinematografiche e progetti artistici che sfidano i confini tra finzione, documentario e arte. Il nome Altauro, vocabolo antico non più in uso nella lingua italiana, indica un vento che spira sulle vette dei monti.</p> 
-          <p class="eng">L’Altauro is a cultural association founded in Milan in 2017 by Davide Maldi and Micol Roubini. It develops cinematographic - art projects, challenging the boundaries between fiction, documentary and art. The word Altauro, not anymore in use in the contemporary Italian language, describes a wind blowing on top of the mountains.</p>
-          <button class="my-btn">press kit</button>          
-       </div>
-   </div>
+    
+   
 </div>
     
 

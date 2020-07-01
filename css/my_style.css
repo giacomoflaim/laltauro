@@ -24,7 +24,7 @@
 
 .text-menu{
     font-family: 'Muli', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.5px;
     line-height: 20px;
@@ -44,17 +44,17 @@
 }
 
 .btn-menu{   
-    padding: 0px 10px 24px 50px;   
+    padding: 0px 8px 8px 48px;   
 }
 
 .btn-menu-2{
    /* border-bottom: solid 2px red;*/
-    padding: 0px 10px 24px 70px;   
+    padding: 0px 10px 8px 72px;   
 }
 
 .menu-section{
     font-family: 'Muli', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.5px;
     line-height: 20px;
@@ -86,27 +86,28 @@
 
 p{
     font-family: 'Muli', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 22px;
-    color: black;
+    line-height: 20px;
+    color: #000;
     margin: 48px 0px;
 }
 
 h2{
     font-family: 'Muli', sans-serif;
-    font-size: 36px;
-    line-height: 50px;
+    font-size: 48px;
+    line-height: 56px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2px;    
+    letter-spacing: 0px;    
 }
 
 
 h4{
     font-family: 'Muli', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
     text-transform: uppercase;
     line-height: 20px;
     margin-bottom: 8px;
@@ -115,7 +116,8 @@ h4{
 
 h5{ 
     font-family: 'Muli', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
+    color: #000;
     line-height: 20px;
     font-weight: 400;
 }
@@ -123,7 +125,7 @@ h5{
 
 h6{
     font-family: 'Muli', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
     line-height: 20px;
@@ -132,10 +134,10 @@ h6{
 
 h7{
     font-family: 'Muli', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     text-transform: none;
-    line-height: 18px;
+    line-height: 20px;
     margin-bottom: 4px;
 }
 
