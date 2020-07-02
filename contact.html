@@ -26,6 +26,17 @@
 
 <body>
 
+<style>
+    .marker {
+      background-image: url('./asset/mapbox-icon.png');
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+    }   
+</style>
+
 <div class="d-flex">
     <!-- Sidebar -->
     <div class="bg-light menu-laterale" style="width: 300px;">
@@ -50,23 +61,44 @@
             <a href="https://www.facebook.com/altaurofilm/" target="_blank">
                 <i class="fab fa-facebook-f myIcons"></i>
             </a>
-        </div>
-        
+        </div>        
       </div>
     </div>
 </div>
 
 <div class="container top-48 bottom-80">
-    <div id='map' style='width: 100%; height: 300px;'></div>
+    <div class="row">
+        <div class="col-md-9 offset-md-3">
+            <div id='map' style='width: 100%; height: 400px;'></div>
+        </div>
+    </div>
+    <div class="row top-48">
+        <div class="col-md-3 offset-md-3">
+            <h4>address</h4>
+            <h5>via Pola 19<br>20124 Milano<br>Italy</h5>
+        </div>
+        <div class="col-md-3">
+            <button class="my-btn">scrivici</button>        
+        </div>
+        <div class="col-md-3">
+            <button class="my-btn">write us</button>        
+        </div>           
+        
+    </div>
     <script>
       mapboxgl.accessToken = 'pk.eyJ1IjoiZ2lhY29tb2ZsIiwiYSI6ImNrOWxkamVhYzAzZW4zbHJ0NTRnOGNzaTgifQ.yYjeSPFynDdrYSPon_HrmQ';
       var map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/giacomofl/ckc3hatnl0ura1iqkubsaxnl6',
-        center: [9.193429, 45.486214],
+        style: 'mapbox://styles/giacomofl/ckc3hatnl0ura1iqkubsaxnl6',          
+        center: [9.190466,45.4890722],
         zoom: 15          
       });
+        
+    var marker = new mapboxgl.Marker()
+        .setLngLat([9.190466,45.4890722])
+        .addTo(map);
     </script>
+    
 
    
     
