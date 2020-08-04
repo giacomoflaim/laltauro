@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <title>L'altauro | La Strada per le montagne</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/png" sizes="96x96" href="./asset/img/fav.png">
+    <script src="https://kit.fontawesome.com/4f39297857.js" crossorigin="anonymous"></script>
+    
+    
+    
+
+    <!-- CSS -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="css/my_style.css" rel="stylesheet">
+    
+    
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
+
+    
+</head>
+
+<body>
+
+<!--Navbar MOBILE-->
+<nav class="navbar navbar-dark red lighten-1 mb-4 only-mobile fixed-top nav-chiuso">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#"></a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#content-mobile"
+    aria-controls="content-mobile" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="content-mobile">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item nav-item-mobile">
+        <a href="info.html" class="text-menu-mobile">info</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="upcoming.html" class="text-menu-mobile">upcoming</a>
+      </li>
+      <h6 class="menu-section-mobile">about us</h6>
+      <li class="nav-item nav-item-mobile">
+        <a href="davide.html" class="text-menu-mobile">DAVIDE MALDI</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="micol.html" class="text-menu-mobile">MICOL ROUBINI</a>
+      </li>
+      <h6 class="menu-section-mobile">projects</h6>
+      <li class="nav-item nav-item-mobile">
+        <a href="apprendistato.html" class="text-menu-mobile">l’apprendistato</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="la_strada_per_le_montagne.html" class="text-menu-mobile active">La Strada per le montagne</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="HistoireDuSoldat.html" class="text-menu-mobile">HISTOIRE DU SOLDAT</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="mayThemWhiteRiseWithYou.html" class="text-menu-mobile">171219 MAY THEM WHITE RISE WITH YOU</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="contact.html" class="text-menu-mobile">CONTACT</a>
+      </li>
+    </ul>
+    <div style="text-align: center">
+            <a href="https://www.instagram.com/altaurofilm/" target="_blank">
+                <i class="fab fa-instagram myIcons-mobile"></i>
+            </a>
+            <a href="https://www.facebook.com/altaurofilm/" target="_blank">
+                <i class="fab fa-facebook-f myIcons-mobile"></i>
+            </a>
+    </div>
+  </div>
+</nav>
+
+<div class="d-flex nav-no-mobile">
+    <!-- Sidebar -->
+    <div class="bg-light menu-laterale">
+      <div class="list-group list-group-flush">
+        <img src="./asset/images/logo_altauro_new.png" class="img-fluid logo" alt="Responsive image">
+        <a href="info.html" class="btn-menu text-menu">info</a>
+        <a href="upcoming.html" class="btn-menu text-menu">upcoming</a>
+        <h6 class="menu-section">about us</h6>
+        <a href="davide.html" class="btn-menu-2 text-menu sub-section ">DAVIDE MALDI</a>
+        <a href="micol.html" class="btn-menu-2 text-menu sub-section">MICOL ROUBINI</a>
+        <h6 class="menu-section">projects</h6>
+        <a href="apprendistato.html" class="btn-menu-2 text-menu sub-section ">l’apprendistato</a>
+        <a href="la_strada_per_le_montagne.html" class="btn-menu-2 text-menu sub-section active">La Strada per le montagne</a>
+        <a href="HistoireDuSoldat.html" class="btn-menu-2 text-menu sub-section">HISTOIRE DU SOLDAT</a>
+        <a href="mayThemWhiteRiseWithYou.html" class="btn-menu-2 text-menu sub-section">171219 MAY THEM WHITE RISE WITH YOU</a>
+        <a href="contact.html" class="btn-menu text-menu sub-section">CONTACT</a>
+        <div class="icons-menu">
+            <a href="https://www.instagram.com/altaurofilm/" target="_blank">
+                <i class="fab fa-instagram myIcons"></i>
+            </a>
+            <a href="https://www.facebook.com/altaurofilm/" target="_blank">
+                <i class="fab fa-facebook-f myIcons"></i>
+            </a>
+        </div>
+        
+      </div>
+    </div>
+</div>
+
+<div class="container top-48 bottom-80">
+    <div class="row">
+        <div class="col-lg-9 offset-lg-3 col-md-8 offset-md-4">
+            <h2>La Strada per le montagne / <span class="eng">The way to the mountains</span></h2>
+        </div>
+        <div class="col-lg-9 offset-lg-3 col-md-8 offset-md-4 top-24">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+              <div class="carousel-inner" id="elementoCarousel">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="./asset/laStradaPerLeMontagne/01_thewaytothemountains.jpg" alt="La Strada per le montagne 1">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./asset/laStradaPerLeMontagne/02_thewaytothemountains.png" alt="La Strada per le montagne 2">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./asset/laStradaPerLeMontagne/03_thewaytothemountains.jpg" alt="La Strada per le montagne 3">
+                </div>                
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./asset/laStradaPerLeMontagne/04_thewaytothemountains.jpg" alt="La Strada per le montagne 4">
+                </div> 
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./asset/laStradaPerLeMontagne/05_thewaytothemountains.jpg" alt=" La Strada per le montagne 5">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./asset/laStradaPerLeMontagne/06_thewaytothemountains.jpg" alt="La Strada per le montagne 6">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./asset/laStradaPerLeMontagne/07_thewaytothemountains.jpg" alt="La Strada per le montagne 7">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./asset/laStradaPerLeMontagne/08_thewaytothemountains.jpg" alt="La Strada per le montagne 8">
+                </div>          
+              </div>
+            </div>            
+        </div>
+        <div class="col-lg-9 offset-lg-3 col-md-8 offset-md-4 top-24">
+            <h5 style="margin-top: 0px;" class="dubbio">Un film di Davide Maldi</h5>
+            <p class="top-8 bottom-24">Milano. Alcuni oggetti appartenuti alla lista di beni che la mia famiglia aveva portato con sé nel 1957, emigrando dall’Unione Sovietica in Italia, fra questi una fotografia del 1919 che ritrae la casa in cui era nato mio nonno. 
+            Nel villaggio di Jamna, in Ucraina, una vasta area inaccessibile, sorvegliata da guardie armate. Al suo interno, tra i palazzi di un sanatorio abbandonato, s’intravede una vecchia casa in legno, del tutto somigliante a quella appartenuta alla mia famiglia. Man mano che i tentativi di eludere i controlli falliscono, uno dopo l’altro, a loro volta gli abitanti della valle si trovano impigliati nei vuoti e nelle incongruenze di una memoria collettiva, spesso parziale ed inesatta. L’aiuto di due di loro si rivelerà cruciale: Petro, l’anziano partigiano e Yura il tassista. 
+            Le confessioni faranno luce sulle sorti della casa poco prima che l’intero paese venga sepolto dal silenzio.</p>
+            
+            <h5 class="eng dubbio">Film by Davide Maldi</h5>
+            <p class="top-8 eng">Milan. Few objects belonging to the list of goods that my family carried out of the Soviet Union in 1957, while emigrating to Italy, and a 1919 photography portraying the house where my grandfather was born. 
+            In the village of Jamna, in Ukraine, a vast inaccessible area, patrolled by armed guardians. Inside there are few buildings of an abandoned sanatorium and an old wooden house, which looks exactly like the one owned by my family. While the attempts to enter the area fail one after the other, the inhabitants of the village will be entangled in the voids of their collective memory. The help of two of them will be crucial: Petro, the oldest partisan of the area, and Yura, the taxi-driver. The confessions will shed light on the fate of the house, just before the whole village will be buried again in its silent secrets.
+            </p>
+        </div>
+        <div class="col-lg-9 offset-lg-3 col-md-8 offset-md-4 bottom-24">
+            <h4>Festival</h4>
+            <h5 class="bottom-8">41° festival Cinéma du réel, Compétition internationale</h5>
+            <h5 class="bottom-8">Docudays UA, World Competition</h5>
+            <h5 class="bottom-8">Isreal, festival, Competizione internazionale</h5>
+            <h5 class="bottom-8">IFFI, International film festival, Innsbruck</h5>
+            <h5 class="bottom-8">24° Les écrans documentaires</h5>
+            <h5 class="bottom-8">39° Filmmaker Film Festival</h5>
+            <h5 class="bottom-8">Travelling Docudays - Ukraine</h5>
+            <h5 class="bottom-8">31° Trieste Film Festival - Premio Corso Salani / Corso Salani Prize</h5>
+        </div>
+        <div class="col-lg-9 offset-lg-3 col-md-8 offset-md-4 bottom-48">
+            <h4>Credits</h4>
+            <h5 class="bottom-8">Anno /<span class="eng"> Year</span>: 2019</h5>
+            <h5 class="bottom-8">Durata /<span class="eng"> Runtime</span>: 84’</h5>
+            <h5 class="bottom-8">Regia /<span class="eng"> Director</span>: Micol Roubini</h5>
+            <h5 class="bottom-8">Scritto da / <span class="eng">Written by</span>: Micol Roubini</h5>
+            <h5 class="bottom-8">Fotografia e suono / <span class="eng">Cinematography and sound</span>: Davide Maldi</h5>
+            <h5 class="bottom-8">Montaggio / <span class="eng">Editing</span>: Micol Roubini, Davide Minotti</h5>
+            <h5 class="bottom-8">Supervisione montaggio / <span class="eng">Editing supervisor</span>: Carlotta Cristiani</h5>
+            <h5 class="bottom-8">Musiche originali / <span class="eng">Original Soundtrack</span>: Freddie Murphy, Chiara Lee</h5>
+            <h5 class="bottom-8">Coach voce off / <span class="eng">Coach voice-over</span>: Chiara Lagani</h5>
+            <h5 class="bottom-8">Montaggio del Suono e mix / <span class="eng">Sound edit and mix</span>: Stefano Grosso, Marzia Cordò, Giancarlo Rutigliano</h5>
+            <h5 class="bottom-8">Produzione / <span class="eng">Produced by</span>: Fabrizio Polpettini, Marco Alessi, Davide Maldi, Micol Roubini</h5>
+            <h5 class="bottom-8">Una Produzione / <span class="eng">a Production by</span>: La Bête, Dugong Films, L’Altauro, ViàOccitanie</h5>
+            <h5 class="bottom-8">Paese / <span class="eng">Country</span>: France, Italy</h5>
+            <h5 class="bottom-8">Vendite internazionali / <span class="eng">Sales</span>: Slingshot Films</h5>
+            
+            <h5 class="bottom-8">CNC - Centre National du Cinéma (écriture, développement, production audiovisuelle)</h5>
+            <h5 class="bottom-8">Atelier di post produzione Milano Film Network 2017</h5>
+            <h5 class="bottom-8">Bourse Brouillon d’un Rêve (Scam) - 2016</h5>
+            <h5 class="bottom-8">Primo premio InProgress, Filmmaker 2014</h5>
+            <h5 class="bottom-8">30° Premio Solinas/SIAE documentario</h5>
+            <h5 class="bottom-8">Procirep ANGOA, société des Producteurs de Cinéma et de Télévision</h5>
+        </div>
+        <div class="col-lg-4 offset-lg-3 col-md-4 offset-md-4 bottom-48">
+            <img class="d-block w-100" src="./asset/laStradaPerLeMontagne/POSTER_lastradaperlemontagne.jpg" alt="poster_l'apprendistato">
+        </div>
+        
+        <div class="col-lg-9 offset-lg-3 col-md-8 offset-md-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/321318115" allowfullscreen></iframe>
+            </div>
+        </div> 
+    </div>                   
+</div>
+   
+
+<!-- JAVASCRIPT -->
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/my-js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+
+
+</body>
+
+</html>

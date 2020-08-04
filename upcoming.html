@@ -23,9 +23,67 @@
 
 <body>
 
-<div class="d-flex">
+<!--Navbar MOBILE-->
+<nav class="navbar navbar-dark red lighten-1 mb-4 only-mobile fixed-top nav-chiuso">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#"></a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#content-mobile"
+    aria-controls="content-mobile" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="content-mobile">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item nav-item-mobile">
+        <a href="info.html" class="text-menu-mobile">info</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="upcoming.html" class="text-menu-mobile active">upcoming</a>
+      </li>
+      <h6 class="menu-section-mobile">about us</h6>
+      <li class="nav-item nav-item-mobile">
+        <a href="davide.html" class="text-menu-mobile">DAVIDE MALDI</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="micol.html" class="text-menu-mobile">MICOL ROUBINI</a>
+      </li>
+      <h6 class="menu-section-mobile">projects</h6>
+      <li class="nav-item nav-item-mobile">
+        <a href="apprendistato.html" class="text-menu-mobile">l’apprendistato</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="la_strada_per_le_montagne.html" class="text-menu-mobile">La Strada per le montagne</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="HistoireDuSoldat.html" class="text-menu-mobile">HISTOIRE DU SOLDAT</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="mayThemWhiteRiseWithYou.html" class="text-menu-mobile">171219 MAY THEM WHITE RISE WITH YOU</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="contact.html" class="text-menu-mobile">CONTACT</a>
+      </li>
+    </ul>
+    <div style="text-align: center">
+            <a href="https://www.instagram.com/altaurofilm/" target="_blank">
+                <i class="fab fa-instagram myIcons-mobile"></i>
+            </a>
+            <a href="https://www.facebook.com/altaurofilm/" target="_blank">
+                <i class="fab fa-facebook-f myIcons-mobile"></i>
+            </a>
+    </div>
+  </div>
+</nav>
+
+<div class="d-flex nav-no-mobile">
     <!-- Sidebar -->
-    <div class="bg-light menu-laterale" style="width: 300px;">
+    <div class="bg-light menu-laterale">
       <div class="list-group list-group-flush">
         <img src="./asset/images/logo_altauro_new.png" class="img-fluid logo" alt="Responsive image">
         <a href="info.html" class="btn-menu text-menu ">info</a>
@@ -35,9 +93,9 @@
         <a href="micol.html" class="btn-menu-2 text-menu sub-section">MICOL ROUBINI</a>
         <h6 class="menu-section">projects</h6>
         <a href="apprendistato.html" class="btn-menu-2 text-menu sub-section">l’apprendistato</a>
-        <a href="#" class="btn-menu-2 text-menu sub-section">La Strada per le montagne</a>
-        <a href="#" class="btn-menu-2 text-menu sub-section">HISTOIRE DU SOLDAT</a>
-        <a href="#" class="btn-menu-2 text-menu sub-section">film4</a>
+        <a href="la_strada_per_le_montagne.html" class="btn-menu-2 text-menu sub-section">La Strada per le montagne</a>
+        <a href="HistoireDuSoldat.html" class="btn-menu-2 text-menu sub-section">HISTOIRE DU SOLDAT</a>
+        <a href="mayThemWhiteRiseWithYou.html" class="btn-menu-2 text-menu sub-section">171219 MAY THEM WHITE RISE WITH YOU</a>
         <a href="contact.html" class="btn-menu text-menu sub-section">CONTACT</a>
         
         <div class="icons-menu">
@@ -56,167 +114,50 @@
 <div class="container top-48 bottom-80">
     <!--copiare un evento da qui  -->
     <!--per rendere l'evento con opacità 50% scrivere eventoPassato dopo eventoUpcoming-->
-   <div class="row eventoUpcoming">
-       <div class="col-md-4 offset-md-3">
-            <div class="row spettacolo">
+    <div class="col-lg-4 offset-lg-3 col-md-4 offset-md-4 eventoUpcoming">       
+            <div class="spettacolo">
                  <!--inserire qui le informazioni-->
               <h6>February 6 2020, h 6.00 – 7.30 pm</h6>
               <h6 class="text-bold">l’apprendistato / THE YOUNG OBSERVANT</h6>
               <h7>Beltrade | Via Nino Oxilia 10, Milano</h7>
             </div>
-            <div class="row"> 
+            <div> 
                <!--inserire dopo href=" il link all'evento facendo attenzione che vi siano le virgolette(") alla fine del link-->             
                 <a href="https://bandhi.it/bah/beltrade/" target="_blank">
                   <h8>more info</h8>
                 </a>
             </div>
-       </div>
-   </div>
+    </div>
    <!--fine copia evento-->
    
    <!--copiare un evento da qui  -->
     <!--per rendere l'evento con opacità 50% scrivere eventoPassato dopo eventoUpcoming-->
-   <div class="row eventoUpcoming">
-       <div class="col-md-4 offset-md-3">
-            <div class="row spettacolo">
+    <div class="col-lg-4 offset-lg-3 col-md-4 offset-md-4 eventoUpcoming">       
+            <div class="spettacolo">
                  <!--inserire qui le informazioni-->
               <h6>February 6 2020, h 6.00 – 7.30 pm</h6>
               <h6 class="text-bold">l’apprendistato / THE YOUNG OBSERVANT</h6>
               <h7>Beltrade | Via Nino Oxilia 10, Milano</h7>
             </div>
-            <div class="row"> 
+            <div> 
                <!--inserire dopo href=" il link all'evento facendo attenzione che vi siano le virgolette(") alla fine del link-->             
                 <a href="https://bandhi.it/bah/beltrade/" target="_blank">
                   <h8>more info</h8>
                 </a>
             </div>
-       </div>
-   </div>
-   <!--fine copia evento-->
-   
-   <!--copiare un evento da qui  -->
-    <!--per rendere l'evento con opacità 50% scrivere eventoPassato dopo eventoUpcoming-->
-   <div class="row eventoUpcoming eventoPassato">
-       <div class="col-md-4 offset-md-3">
-            <div class="row spettacolo">
-                 <!--inserire qui le informazioni-->
-              <h6>February 6 2020, h 6.00 – 7.30 pm</h6>
-              <h6 class="text-bold">l’apprendistato / THE YOUNG OBSERVANT</h6>
-              <h7>Beltrade | Via Nino Oxilia 10, Milano</h7>
-            </div>
-            <div class="row"> 
-               <!--inserire dopo href=" il link all'evento facendo attenzione che vi siano le virgolette(") alla fine del link-->             
-                <a href="https://bandhi.it/bah/beltrade/" target="_blank">
-                  <h8>more info</h8>
-                </a>
-            </div>
-       </div>
-   </div>
-   <!--fine copia evento-->
-   
-   <!--copiare un evento da qui  -->
-    <!--per rendere l'evento con opacità 40% scrivere eventoPassato dopo eventoUpcoming-->
-   <div class="row eventoUpcoming eventoPassato">
-       <div class="col-md-4 offset-md-3">
-            <div class="row spettacolo">
-                 <!--inserire qui le informazioni-->
-              <h6>February 6 2020, h 6.00 – 7.30 pm</h6>
-              <h6 class="text-bold">l’apprendistato / THE YOUNG OBSERVANT</h6>
-              <h7>Beltrade | Via Nino Oxilia 10, Milano</h7>
-            </div>
-            <div class="row"> 
-               <!--inserire dopo href=" il link all'evento facendo attenzione che vi siano le virgolette(") alla fine del link-->             
-                <a href="https://bandhi.it/bah/beltrade/" target="_blank">
-                  <h8>more info</h8>
-                </a>
-            </div>
-       </div>
-   </div>
-   <!--fine copia evento-->
-   
-   <!--copiare un evento da qui  -->
-    <!--per rendere l'evento con opacità 40% scrivere eventoPassato dopo eventoUpcoming-->
-   <div class="row eventoUpcoming eventoPassato">
-       <div class="col-md-4 offset-md-3">
-            <div class="row spettacolo">
-                 <!--inserire qui le informazioni-->
-              <h6>February 6 2020, h 6.00 – 7.30 pm</h6>
-              <h6 class="text-bold">l’apprendistato / THE YOUNG OBSERVANT</h6>
-              <h7>Beltrade | Via Nino Oxilia 10, Milano</h7>
-            </div>
-            <div class="row"> 
-               <!--inserire dopo href=" il link all'evento facendo attenzione che vi siano le virgolette(") alla fine del link-->             
-                <a href="https://bandhi.it/bah/beltrade/" target="_blank">
-                  <h8>more info</h8>
-                </a>
-            </div>
-       </div>
-   </div>
-   <!--fine copia evento-->
+    </div>
+   <!--fine copia evento-->  
    
    
-   <!--copiare un evento da qui  -->
-    <!--per rendere l'evento con opacità 40% scrivere eventoPassato dopo eventoUpcoming-->
-   <div class="row eventoUpcoming eventoPassato">
-       <div class="col-md-4 offset-md-3">
-            <div class="row spettacolo">
-                 <!--inserire qui le informazioni-->
-              <h6>February 6 2020, h 6.00 – 7.30 pm</h6>
-              <h6 class="text-bold">l’apprendistato / THE YOUNG OBSERVANT</h6>
-              <h7>Beltrade | Via Nino Oxilia 10, Milano</h7>
-            </div>
-            <div class="row"> 
-               <!--inserire dopo href=" il link all'evento facendo attenzione che vi siano le virgolette(") alla fine del link-->             
-                <a href="https://bandhi.it/bah/beltrade/" target="_blank">
-                  <h8>more info</h8>
-                </a>
-            </div>
-       </div>
-   </div>
-   <!--fine copia evento-->
    
-   <!--copiare un evento da qui  -->
-    <!--per rendere l'evento con opacità 40% scrivere eventoPassato dopo eventoUpcoming-->
-   <div class="row eventoUpcoming eventoPassato">
-       <div class="col-md-4 offset-md-3">
-            <div class="row spettacolo">
-                 <!--inserire qui le informazioni-->
-              <h6>February 6 2020, h 6.00 – 7.30 pm</h6>
-              <h6 class="text-bold">l’apprendistato / THE YOUNG OBSERVANT</h6>
-              <h7>Beltrade | Via Nino Oxilia 10, Milano</h7>
-            </div>
-            <div class="row"> 
-               <!--inserire dopo href=" il link all'evento facendo attenzione che vi siano le virgolette(") alla fine del link-->             
-                <a href="https://bandhi.it/bah/beltrade/" target="_blank">
-                  <h8>more info</h8>
-                </a>
-            </div>
-       </div>
-   </div>
-   <!--fine copia evento-->
-   
-   <!--copiare un evento da qui  -->
-    <!--per rendere l'evento con opacità 40% scrivere eventoPassato dopo eventoUpcoming-->
-   <div class="row eventoUpcoming eventoPassato">
-       <div class="col-md-4 offset-md-3">
-            <div class="row spettacolo">
-                 <!--inserire qui le informazioni-->
-              <h6>February 6 2020, h 6.00 – 7.30 pm</h6>
-              <h6 class="text-bold">l’apprendistato / THE YOUNG OBSERVANT</h6>
-              <h7>Beltrade | Via Nino Oxilia 10, Milano</h7>
-            </div>
-            <div class="row"> 
-               <!--inserire dopo href=" il link all'evento facendo attenzione che vi siano le virgolette(") alla fine del link-->             
-                <a href="https://bandhi.it/bah/beltrade/" target="_blank">
-                  <h8>more info</h8>
-                </a>
-            </div>
-       </div>
-   </div>
-   <!--fine copia evento-->
    
 </div>
     
+<!-- JAVASCRIPT -->
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/my-js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
 
 </body>
 

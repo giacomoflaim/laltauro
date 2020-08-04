@@ -23,9 +23,67 @@
 
 <body>
 
-<div class="d-flex">
+<!--Navbar MOBILE-->
+<nav class="navbar navbar-dark red lighten-1 mb-4 only-mobile fixed-top nav-chiuso">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#"></a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#content-mobile"
+    aria-controls="content-mobile" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="content-mobile">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item nav-item-mobile">
+        <a href="info.html" class="text-menu-mobile active">info</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="upcoming.html" class="text-menu-mobile">upcoming</a>
+      </li>
+      <h6 class="menu-section-mobile">about us</h6>
+      <li class="nav-item nav-item-mobile">
+        <a href="davide.html" class="text-menu-mobile">DAVIDE MALDI</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="micol.html" class="text-menu-mobile">MICOL ROUBINI</a>
+      </li>
+      <h6 class="menu-section-mobile">projects</h6>
+      <li class="nav-item nav-item-mobile">
+        <a href="apprendistato.html" class="text-menu-mobile">l’apprendistato</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="la_strada_per_le_montagne.html" class="text-menu-mobile">La Strada per le montagne</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="HistoireDuSoldat.html" class="text-menu-mobile">HISTOIRE DU SOLDAT</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="mayThemWhiteRiseWithYou.html" class="text-menu-mobile">171219 MAY THEM WHITE RISE WITH YOU</a>
+      </li>
+      <li class="nav-item nav-item-mobile">
+        <a href="contact.html" class="text-menu-mobile">CONTACT</a>
+      </li>
+    </ul>
+    <div style="text-align: center">
+            <a href="https://www.instagram.com/altaurofilm/" target="_blank">
+                <i class="fab fa-instagram myIcons-mobile"></i>
+            </a>
+            <a href="https://www.facebook.com/altaurofilm/" target="_blank">
+                <i class="fab fa-facebook-f myIcons-mobile"></i>
+            </a>
+    </div>
+  </div>
+</nav>
+
+<div class="d-flex nav-no-mobile">
     <!-- Sidebar -->
-    <div class="bg-light menu-laterale" style="width: 300px;">
+    <div class="bg-light menu-laterale">
       <div class="list-group list-group-flush">
         <a href="index.html">
             <img src="./asset/images/logo_altauro_new.png" class="img-fluid logo" alt="Responsive image">
@@ -37,9 +95,9 @@
         <a href="micol.html" class="btn-menu-2 text-menu sub-section">MICOL ROUBINI</a>
         <h6 class="menu-section">projects</h6>
         <a href="apprendistato.html" class="btn-menu-2 text-menu sub-section">l’apprendistato</a>
-        <a href="#" class="btn-menu-2 text-menu sub-section">La Strada per le montagne</a>
-        <a href="#" class="btn-menu-2 text-menu sub-section">HISTOIRE DU SOLDAT</a>
-        <a href="#" class="btn-menu-2 text-menu sub-section">film4</a>
+        <a href="la_strada_per_le_montagne.html" class="btn-menu-2 text-menu sub-section">La Strada per le montagne</a>
+        <a href="HistoireDuSoldat.html" class="btn-menu-2 text-menu sub-section">HISTOIRE DU SOLDAT</a>
+        <a href="mayThemWhiteRiseWithYou.html" class="btn-menu-2 text-menu sub-section">171219 MAY THEM WHITE RISE WITH YOU</a>
         <a href="contact.html" class="btn-menu text-menu sub-section">CONTACT</a>
         
         <div class="icons-menu">
@@ -54,18 +112,31 @@
       </div>
     </div>
 </div>
+   
+<button class="easterEgg" type="button"></button>
 
    
 <div class="container">
    <div class="row">
-       <div class="col-md-9 offset-md-3 bottom-80">
-          <img src="./asset/images/bosco_2.jpg" class="img-fluid top-48" alt="info image">
-          <p>L’Altauro è un’associazione culturale con sede a Milano fondata nel 2017 da Davide Maldi e Micol Roubini, con l’intento di sviluppare e produrre opere cinematografiche e progetti artistici che sfidano i confini tra finzione, documentario e arte. Il nome Altauro, vocabolo antico non più in uso nella lingua italiana, indica un vento che spira sulle vette dei monti.</p> 
-          <p class="eng">L’Altauro is a cultural association founded in Milan in 2017 by Davide Maldi and Micol Roubini. It develops cinematographic - art projects, challenging the boundaries between fiction, documentary and art. The word Altauro, not anymore in use in the contemporary Italian language, describes a wind blowing on top of the mountains.</p>  
+       <div class="col-lg-9 offset-lg-3 col-md-8 offset-md-4 col-sm-12 bottom-48 top-mobile">
+            <img src="./asset/images/about.jpg" class="img-fluid top-48" alt="info image">
+            
+            <!-- ITA -->
+            <p>L’Altauro è un’associazione culturale con sede a Milano fondata nel 2017 da Davide Maldi e Micol Roubini, con l’intento di sviluppare e produrre opere cinematografiche e progetti artistici che sfidino i confini tra finzione, documentario e arte. Il nome Altauro, vocabolo antico non più in uso nella lingua italiana, indica un vento che spira sulle vette dei monti.
+            L’Altauro svolge inoltre un lavoro di produzione esecutiva, supporto alle produzioni e fornisce collaborazioni artistiche e tecniche in tutte le sue fasi. Nella sua sede è presente una sala di montaggio video e audio.</p> 
+            
+            <!-- ENG -->
+            <p class="eng">L’Altauro is a cultural association founded in Milan in 2017 by Davide Maldi and Micol Roubini. It develops cinematographic-art projects, challenging the boundaries between fiction, documentary and art. The word Altauro, no longer used in contemporary Italian language, describes a wind which blows on top of the mountains.
+            L’Altauro also works as executive producer, it supports other production companies and provides different artistic and technical collaborations. In its headquarters it hosts a video-sound editing room.</p>  
        </div>
    </div>
 </div>
     
+<!-- JAVASCRIPT -->
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/my-js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
 
 </body>
 

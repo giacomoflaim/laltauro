@@ -1,7 +1,4 @@
 
-
-
-
 header {
   position: relative;
   background-color: black;
@@ -61,7 +58,7 @@ header .overlay {
 
 
 
-/*video landing*/
+/*video landing mobile immagine statica 
 @media (pointer: coarse) and (hover: none) {
   header {
     background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
@@ -69,4 +66,4 @@ header .overlay {
   header video {
     display: none;
   }
-}
+} */
