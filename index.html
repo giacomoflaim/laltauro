@@ -30,7 +30,7 @@
 <header>
   
     <div class="overlay"></div>
-        <video src=""id="myPlayer" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <video id="myPlayer" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         </video>
   
   
@@ -46,7 +46,7 @@
 </header>
 
 <script>
-    var videos = [ "./asset/video/web_A.mp4", "./asset/video/web_A.mp4", "./asset/video/web_A.mp4"]
+    var videos = [ "./asset/video/web_A.mp4", "./asset/video/web_B.mp4", "./asset/video/web_C.mp4"]
     var randomNumber = Math.floor(Math.random() * videos.length)
     var video = videos[randomNumber]
     var myPlayer = document.getElementById('myPlayer');

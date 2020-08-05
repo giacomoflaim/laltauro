@@ -389,6 +389,10 @@ top-0{
     border: solid 2px rgb(120,250,128);    
 }
 
+.indirizzo:hover{
+    color: rgb(120,250,128);    
+}
+
 /*PAGINA UPCOMING*/
 .eventoUpcoming{
     margin-bottom: 32px;
