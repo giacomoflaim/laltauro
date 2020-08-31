@@ -32,29 +32,10 @@ $(".easterEgg").mouseleave(function () {
 
 
 $(document).ready(function () {
-
-  
   $('.second-button').on('click', function () {      
       $('.nav-chiuso').toggleClass('nav-aperto')
       $('.animated-icon2').toggleClass('open');
   });
 });
-
-
-/*
-var arrayImg = new Array();
-arrayImg[0] = "web_A.mp4";
-arrayImg[1] = "web_B.mp4";
-arrayImg[2] = "web_C.mp4";
-
-function getRandomImage(arrayImg,);
-
-function getRandomImage(imgAr, path) {
-    path = path || '/Users/giacomo/Documents/GitHub/laltauro/asset/video/'; // default path here
-    var num = Math.floor( Math.random() * imgAr.length );
-    var img = imgAr[ num ];
-    var myPlayer = '<source class="player" src="' + path + img + '" type="video/mp4">'      
-    document.write(myPlayer);
-};*/
 
 

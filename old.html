@@ -25,12 +25,10 @@
     
 
 <body>
-
-
 <header>
   
     <div class="overlay"></div>
-        <video id="myPlayer" playsinline="playsinline" autoplay="autoplay" muted="muted">
+        <video id="myPlayer" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         </video>
   
   
@@ -46,32 +44,16 @@
 </header>
 
 <script>
-    var videos = [ "./asset/video/web_A.mp4", "./asset/video/web_B.mp4", "./asset/video/web_C.mp4"]
-    var i = Math.floor(Math.random() * videos.length)
-    var video = videos[i]
-    play(video)
-    document.getElementById('myPlayer').addEventListener('ended', myHandler, false);
-
-    function myHandler() {
-        i++;
-        if(i == (videos.length)){
-            i = 0;
-        }
-        play(videos[i]);
-    }
-
-    function play(video) {
-        var myPlayer = document.getElementById('myPlayer');
-        var source = document.createElement('source');
-        source.setAttribute('src', video);
-        while (myPlayer.hasChildNodes()) {
-            myPlayer.removeChild(myPlayer.firstChild);
-        }
-        myPlayer.appendChild(source);
-        myPlayer.load();
-        myPlayer.play();
-    }
+    var videos = [ "./asset/video/web_A.mp4", "./asset/video/web_B.mp4", "./asset/video/web_C.mp4","./asset/video/web_D.mp4"]
+    var randomNumber = Math.floor(Math.random() * videos.length)
+    var video = videos[randomNumber]
+    var myPlayer = document.getElementById('myPlayer');
+    var source = document.createElement('source');
+    source.setAttribute('src', video);
+    myPlayer.appendChild(source);
+    myPlayer.play();    
 </script>
+
 
 <!-- JAVASCRIPT -->
 <script src="js/jquery-3.5.1.min.js"></script>
